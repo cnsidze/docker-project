@@ -27,18 +27,23 @@ _NOTE: creating docker-network in optional. You can start both containers in a d
 
 Step 4: open mongo-express from browser
 
-    http://localhost:8081
+    http://<server-IP>:8081 or http://<local-dns>:8081 
 
 Step 5: create `user-account` _db_ and `users` _collection_ in mongo-express
 
-Step 6: Start your nodejs application locally - go to `app` directory of project 
+step 6: Install nodeJs, npm and then install the express module in your server:
+    sudo apt install nodejs
+    sudo apt install npm
+    npm install express@4.17.1
+
+Step 7: Start your nodejs application locally - go to `app` directory of project 
 
     npm install 
     node server.js
     
-Step 7: Access you nodejs application UI from browser
+Step 8: Access you nodejs application UI from browser
 
-    http://localhost:3000
+    http://<server-IP>:3000 or http://<local-dns>:3000
 
 ### With Docker Compose
 
