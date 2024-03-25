@@ -32,8 +32,11 @@ Step 4: open mongo-express from browser
 Step 5: create `user-account` _db_ and `users` _collection_ in mongo-express
 
 step 6: Install nodeJs, npm and then install the express module in your server:
+    
     sudo apt install nodejs
+    
     sudo apt install npm
+    
     npm install express@4.17.1
 
 Step 7: Start your nodejs application locally - go to `app` directory of project 
